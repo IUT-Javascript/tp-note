@@ -7,9 +7,9 @@
 - À chaque modification du sujet, pensez à regarder TOUTES les modifications qui peuvent vous donner des idées, indices, solutions etc...
 
 ## Ressources
-API des cartes Pokemon : https://api.tcgdex.net/v2/fr/cards
-Manipulation des images : https://tcgdex.dev/assets?ref=assets.tcgdex.net#extension
-MockAPI : https://mockapi.io/projects
+- API des cartes Pokemon : https://api.tcgdex.net/v2/fr/cards
+- Manipulation des images : https://tcgdex.dev/assets?ref=assets.tcgdex.net#extension
+- MockAPI : https://mockapi.io/projects
 
 ## Sujet du TP
 
