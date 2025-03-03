@@ -17,7 +17,7 @@
 
 ### Socle technique 
 
-1) Mettre en place une classe/fichier de service `LienService` qui retournera une liste de lien. Un lien sera composé d'un `label` et d'un `path`
+1) Mettre en place une classe/fichier de service `LienService` qui retournera une liste de lien. Un lien sera composé d'un `label` (ce qui sera affiché sur la page) et d'un `path` (qui correspond à l'URL)
 2) Mettre en place une classe/fichier de service `ApiService` permettant de faire des appels de type GET/POST/UPDATE/DELETE et qui manipuleront des données au format JSON le cas échéant (cette classe doit fonctionner peu importe l'URL et le verbe utilisés)
 3) Mettre en place une classe/fichier de service `CardSercice` permettant de récupérer toutes les cartes disponibles sur l'API (ce service devra utiler le service précédemment créé)
 4) Mettre en place une classe/fichier de service `LocalStorageService` permettant de manipuler le `LocalStorage` de votre application
