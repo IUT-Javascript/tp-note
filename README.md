@@ -12,6 +12,7 @@
 - Manipulation des images : https://tcgdex.dev/assets?ref=assets.tcgdex.net#extension
 - API decks : https://67b8eac151192bd378dc35a6.mockapi.io/decks
 - API boosters : https://67b8eac151192bd378dc35a6.mockapi.io/boosters
+- Documentation API : https://tcgdex.dev/rest/filtering-sorting-pagination
 
 ## Sujet du TP
 
@@ -31,14 +32,16 @@
 5) Sur la page `My decks` vous listerez l'ensemble des decks présents sur l'API des decks en affichant leur nom.
 6) Sur la page `My decks` vous aurez la possibilité d'ajouter un deck. Un deck est composé d'un `name`, d'un `idUser` (que vous devrez générer aléatoirement entre 1 et 10) et d'une liste de `cards` (qui correspond à l'id d'une carte). Tous les champs sont obligatoires.
 7) Au clic sur un deck, vous devrez rediriger l'utilisateur sur la page du deck et afficher le nom du deck ainsi que toutes les cartes du deck (nom + image)
-8) Sur la page `Open a booster` vous devrez afficher les boosters présents dans l'API. Au clic sur le nom d'un booster vous devrez récupérer aléatoirement une carte présente dans ce dernier et la stocker dans le `LocalStore`
+8) Sur la page `Open a booster` vous devrez afficher les boosters présents dans l'API. Au clic sur le nom d'un booster vous devrez récupérer aléatoirement une carte présente dans ce dernier et la stocker dans le `LocalStorage`
 9) Sur la page `Home` vous listerez les cartes qui ont été obtenues en ouvrant des boosters.
+10) Sur la page `All Cards`, mettre en place une pagination (via l'API) en ne récupérant par défaut que 100 cartes avec 10 cartes par pages
+11) Sur la page `All Cards`, via une liste déroulante, l'utilisateur pourra choisir le nombre de cartes par page (choix entre 10, 25, 50 et toutes). Ce choix devra être conserver.
 
 ### Socle UI/UX
 
 L'application doit être facile à utiliser. L'ergonomie sera prise en compte dans la notation
 
-## Aide
+## Aidez
 
 - Un stub/bouchon est une méthode permettant d'intégrer des données factices dans une application. Comme par exemple avec un fichier JSON ou des données directement dans le code.
 - L'image du pokemon devra être affichée dans une balise img
