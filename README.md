@@ -36,8 +36,9 @@
 9) Sur la page `Home` vous listerez les cartes qui ont été obtenues en ouvrant des boosters ainsi que la quantité de chacune (des doublons peuvent être obtenus via les boosters)
 10) Sur la page `All Cards`, mettre en place une pagination (via l'API) en ne récupérant par défaut que 100 cartes avec 10 cartes par pages
 11) Sur la page `All Cards`, via une liste déroulante, l'utilisateur pourra choisir le nombre de cartes par page (choix entre 10, 25, 50 et toutes). Ce choix devra être conserver
-12) Sur la page `Home`, vous mettrez en place un champ de recherche filtrant les cartes obtenues via le nom ou l'id
-13) Mettez en place une fonctionnalité permettant de détruire 4 de vos cartes afin d'obtenir une nouvelle carte qui s'ajoutera autoamtiquement à votre collection
+12) Pour créer un deck, vous devrez lister l'ensemble de vos cartes obtenues (affichages du nom et de l'image)
+13) Sur la page permettant de créer un deck, vous mettrez en place un champ de recherche filtrant les cartes obtenues dans les boosters via le nom ou l'id.
+14) Mettez en place une fonctionnalité permettant de détruire 4 de vos cartes afin d'obtenir une nouvelle carte qui s'ajoutera autoamtiquement à votre collection
 
 ### Socle UI/UX
 
