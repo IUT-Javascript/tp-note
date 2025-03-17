@@ -5,6 +5,7 @@
 - Le projet sera réalisé sous forme d'une application en vueJS
 - Pensez composant : on découpe la page en composant, chacun ayant UNE responsabilité
 - À chaque modification du sujet, pensez à regarder TOUTES les modifications qui peuvent vous donner des idées, indices, solutions etc...
+- Date de rendu : dimanche 30 mars 23h59
 
 ## Ressources
 - API listing cartes Pokémon : https://api.tcgdex.net/v2/fr/cards
